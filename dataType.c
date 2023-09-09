@@ -13,11 +13,17 @@ int main() {
     // printf(" Age = %d" , age);
     // 
 
-    double number = 12.46;
-    float number1 = 11.8f;
-    printf("%.2If" , number);
-    printf("%f" , number1);
+    // double number = 12.46;
+    // float number1 = 11.8f;
+    // printf("%.2If" , number);
+    // printf("\n%.lf" , number1);
 
+
+    // double number = 5.5e6;
+    // printf("%lf" , number);
+
+char character = 'z';
+printf("%c" , character);
     return 0;
 
 }
