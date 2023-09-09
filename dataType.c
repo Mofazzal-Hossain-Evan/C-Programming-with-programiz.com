@@ -14,7 +14,9 @@ int main() {
     // 
 
     double number = 12.46;
+    float number1 = 11.8f;
     printf("%.2If" , number);
+    printf("%f" , number1);
 
     return 0;
 
