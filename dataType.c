@@ -9,7 +9,13 @@ char (1 byte)      %c for printing
 
 int main() {
 
-    int age = 10;
-    printf(" Age = %d" , age);
+    // int age = 10;
+    // printf(" Age = %d" , age);
+    // 
+
+    double number = 12.46;
+    printf("%.2If" , number);
+
     return 0;
+
 }
