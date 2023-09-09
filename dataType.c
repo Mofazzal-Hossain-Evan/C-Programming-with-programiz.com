@@ -7,3 +7,9 @@ char (1 byte)      %c for printing
 
 #include <stdio.h>
 
+int main() {
+
+    int age = 10;
+    printf(" Age = %d" , age);
+    return 0;
+}
