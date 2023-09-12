@@ -13,10 +13,6 @@ int main() {
 double number;
 char alphabet;
 
-int age;
-float temp;
-
-
 // printf("\n Enter double number");
 // scanf("\n %lf", &number);
 
@@ -26,11 +22,18 @@ float temp;
 // printf("Enter input");
 // scanf("%lf %c", &number, &alphabet );
 
-printf("Enter input");
-scanf("")
 
-// q    azq az¥
+int age;
+float temp;
 
+    printf("Enter age: ");
+    scanf("%d", &age);
+
+    printf("Enter input: ");
+    scanf("%f", &temp);
+
+    printf("You entered age: %d\n", age);
+    printf("You entered input: %f\n", temp);
 
     return 0;
 
