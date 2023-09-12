@@ -13,14 +13,23 @@ int main() {
 double number;
 char alphabet;
 
-printf("\n Enter double number");
-scanf("%lf", &number);
+int age;
+float temp;
 
-printf("\n Enter Char");
-scanf("\n%c", &alphabet);
 
-printf("\n Number: %lf", number);
-printf("\n Char: %C ", alphabet);
+// printf("\n Enter double number");
+// scanf("\n %lf", &number);
+
+// printf("\n Enter Char");
+// scanf("\n%c", &alphabet);
+
+// printf("Enter input");
+// scanf("%lf %c", &number, &alphabet );
+
+printf("Enter input");
+scanf("")
+
+// q    azq az¥
 
 
     return 0;
