@@ -9,7 +9,7 @@ int main() {
     // printf("%lf\n",result);
 
     int x = 12;
-    int result = x/8;
+    int result = x % 8;
     printf("Result: %d\n ", result);
 
     return 0;
