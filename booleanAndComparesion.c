@@ -13,7 +13,8 @@ int main() {
    int age = 18;
    double height = 6.3;
   
-  bool result = (age >= 18) && (height > 6.0);  
+  //bool result = (age >= 18) && (height > 6.0);  
+  bool result = (age >= 18) || (height > 6.0);  
     printf("%d\n", result);
     //printf("%d\n", value2);
     return 0;
