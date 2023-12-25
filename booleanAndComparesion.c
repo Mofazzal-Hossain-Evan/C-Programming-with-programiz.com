@@ -10,11 +10,13 @@ int main() {
    //bool value = ( 4 != 5);
    //bool value = (5 >= 6);
 
-   int age = 18;
+   int age = 16; 
+   //18
    double height = 6.3;
   
   //bool result = (age >= 18) && (height > 6.0);  
-  bool result = (age >= 18) || (height > 6.0);  
+  //bool result = (age >= 18) || (height > 6.0);  
+   bool result = ! (age >= 18); 
     printf("%d\n", result);
     //printf("%d\n", value2);
     return 0;
